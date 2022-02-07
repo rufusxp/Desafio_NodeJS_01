@@ -14,7 +14,7 @@ dotenv.config();
  */
 
 if (!process.env.PORT) {
-	process.exit(1);
+  process.exit(1);
 }
 
 const PORT: number = parseInt(process.env.PORT as string, 10);
@@ -34,8 +34,9 @@ app.use(express.json());
  */
 
 app.listen(PORT, () => {
-	console.log(`Listening on port ${PORT}`);
+  console.log(`Rodou o server povo ${PORT}`);
+  console.log('rodouuuuuu');
 
-	// Escreva aqui a sua msg para o mundo
-	'fala pooooovo'
+  // Escreva aqui a sua msg para o mundo
+
 });
